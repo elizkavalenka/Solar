@@ -1,0 +1,35 @@
+.header {
+    background: url(../img/bg.jpg) center (center/cover) no-repeat;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 10px 38px;   
+    margin-bottom: 150px;
+    &__title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 87px;
+        span {
+            display: block;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 57px;
+        }
+    }
+    &__subtitle {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: auto;
+    }
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__link {
+        padding: 0 10px;
+    }
+}
