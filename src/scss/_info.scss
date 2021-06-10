@@ -1,0 +1,31 @@
+.info {
+    height: 765px;
+    margin-bottom: 150px;
+    &__box{
+        // flex-basis: 510px;
+        margin-right: 90px;
+    }
+    &__content-text {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        margin-bottom: 17px;
+    }
+    &-tabs {
+        margin-bottom: 100px;
+        &__items {
+            margin-bottom: 120px;
+        }
+        &__item {
+            &--active {
+                border-bottom: 1px solid $black-color;
+            }
+        }
+        &__content{
+            display: none;
+            &--active {
+                display: block;
+            }
+        }
+    }
+} 

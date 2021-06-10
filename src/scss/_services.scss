@@ -1,39 +1,18 @@
 .service{
-    height: 763px;
-    width: 1200px;
-    margin: 0 auto;
+    height: 765px;
     margin-bottom: 150px;
-    .wrapper {
-        display: flex;
-        flex-direction: row;
-        
-    }
     &__descr {
         display: flex;
         flex-direction: column;
         justify-content: start;
-        width: 510px;
-        margin-right: 89px;
-    }
-    &__title {
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 33px;
-        margin-bottom: 60px;
-        color: $grey-color;
-    }
-    &__subtitle {
-        font-size: 18px;
-        line-height: 25px;
-        font-weight: 700;
-        margin-bottom: 15px;
+        margin-right: 90px;
     }
     &__text{
         font-size: 14px;
         line-height: 19px;
     }
     &__img{
-        display: block;
+        object-fit: cover;
     }
     &__item {
         margin-bottom: 50px;
