@@ -69,7 +69,14 @@ slider({
 	nextArrow: '.info-slider__next'
 });
 
-
+slider({
+	container: '.clients__slider',
+	wrapper: '.clients-slider__wrap', 
+	field: '.clients-slider__inner',
+	slide: '.clients-slider__item', 
+	prevArrow: '.clients-slider__prev',
+	nextArrow: '.clients-slider__next'
+});
 
 
 function tabs(tabsSelector, tabsContentSelector, tabsParrentSelector, activeClass) {
